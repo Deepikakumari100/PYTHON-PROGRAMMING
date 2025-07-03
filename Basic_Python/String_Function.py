@@ -20,3 +20,9 @@ print("isdigit : ",w.isdigit())
 # 9. isalnum()        returns true when string contain alphabates or digits(numbers) and combination of both.
 w="welcome123" 
 print("isalnum : ",w.isalnum())
+# 10. chr()           convert integer value to ASCII Character
+# ques.> convert integer 65 into ASCII character. 65='A',66='B'
+print(chr(65))
+# 11. ord()           convert ASCII Character into integer value
+# ques.> convert ASCII Character 'A' into integer value. o/p=65
+print(ord('A'))
