@@ -2,3 +2,10 @@
 
 # Arithmetic operators: +, -, *, /, //, %, **
 print(2+2,2-2,2*2,2/2,2//2,2%2,2**2)
+
+# Assignment operator
+# =,+=,-=
+
+# Comparison operators: ==(double equal), !=(not equal),>,>=,<,<=
+print(2==2)
+print(2!=3)
