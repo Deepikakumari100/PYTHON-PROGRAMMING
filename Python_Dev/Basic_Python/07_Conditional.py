@@ -50,3 +50,16 @@ elif b>90:
     print("you got O grade")
 else:
     print("Your Result Not Found")
+
+#Question: Tax Calculator
+
+income = float(input("Enter the annual income: "))
+tax=((income/100)*18)-556
+if income<=85528:
+    if tax<=0:
+        print("The tax is: 0.0 thalers")
+    else:
+        print("The tax is:",round(tax,1),"thalers")
+else:
+    tax=14839+((income-85528)/100)*32
+    print("The tax is:", round(tax,1), "thalers")
